@@ -1,0 +1,93 @@
+div.header {
+    background-color: #7EA107;
+    height: 30px;
+    margin: 0;
+}
+font.header_font {
+    color:#FFFFFF;
+    float: right;
+    font-family: Helvetica;
+    padding: 5px 10px 5px 5px;
+	font-size:0.85em;
+}
+
+div.shadow_box {
+    background-color: #FFFFFF;
+    height: 80px;
+    margin: 0;
+}
+li.menu {
+    float: right;
+    font-family: Helvetica;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 5px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color: #665950;
+}
+a:visited {
+    color: #665950;
+}
+a:hover {
+    color: #08298A;
+}
+a:active {
+    color: #00FF00;
+}
+body {
+    background-image: url("../images/body_bg.png");
+    font-family: Helvetica;
+    margin: auto;
+    padding: 0;
+	font-size:80%;
+	color:#7EA107;
+}
+
+input.rupee {
+    background-image: url("../images/rupee.jpg");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+input.css3button {
+    background: -moz-linear-gradient(center top , #F2F2F2 0%, #E1E1E1 49%, #DDDDDD 51%, #BCBCBC) repeat scroll 0 0 transparent;
+    border: 1px solid #707070;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px rgba(41, 5, 41, 0.5), 5px 6px 20px rgba(255, 5, 255, 0) inset;
+    color: #000000;
+    font-family: Helvetica,sans-serif;
+    padding: 3px 3px;
+    text-shadow: 0 0 0 transparent, 0 0 0 rgba(255, 255, 255, 0);
+	margin:20px;
+}
+.field {
+	margin-bottom:7px;
+	margin-top:5px;
+	}
+
+label.normal {
+	color: #7EA107;
+    font-family:Arial,Verdana;
+    float: left;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: right;
+    width: 120px;
+    line-height: 25px;
+    font-size: 15px;
+    }
+	
+	label.chk{
+	font-family:Arial,Verdana;
+	font-weight: bold;
+	font-size: 15px;
+	width: 120px;
+	text-align: right;
+	margin-left:50px;
+	}
+	

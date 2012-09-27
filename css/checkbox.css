@@ -1,0 +1,27 @@
+  .checkbox {
+    display: block;
+    width: 94px;
+    height: 27px;
+    overflow: hidden;
+    border-radius: 3px;
+  }	
+  input[type=checkbox] {
+    display: none;
+  }
+
+  input[type=checkbox] + label {
+    text-indent: -9999px;
+    display: block;
+    width: 150px;
+    height: 27px;
+    line-height: 27px;
+    background: transparent url(checkbox.png) no-repeat -56px 0;
+    -webkit-transition: background-position 0.3s ease-in-out;
+    -moz-transition: background-position 0.3s ease-in-out;
+  }
+
+  input[type=checkbox]:checked + label {
+    -webkit-transition: background-position 0.3s ease-in-out;
+    -moz-transition: background-position 0.3s ease-in-out;
+    background-position: -3px 0;
+  }
